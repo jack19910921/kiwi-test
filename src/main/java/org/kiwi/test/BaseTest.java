@@ -1,4 +1,4 @@
-package com.vip.study.test;
+package org.kiwi.test;
 
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ActiveProfiles;

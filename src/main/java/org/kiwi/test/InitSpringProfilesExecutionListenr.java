@@ -1,4 +1,4 @@
-package com.vip.study.test;
+package org.kiwi.test;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
