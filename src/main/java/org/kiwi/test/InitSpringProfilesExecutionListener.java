@@ -8,10 +8,10 @@ import org.springframework.test.context.TestContext;
 import org.springframework.test.context.support.AbstractTestExecutionListener;
 
 /**
- * Created by jack08.liu on 2016/8/11.
+ * Created by jack on 2016/8/11.
  */
-public class InitSpringProfilesExecutionListenr extends AbstractTestExecutionListener {
-    private static final Logger LOGGER = LoggerFactory.getLogger(InitSpringProfilesExecutionListenr.class);
+public class InitSpringProfilesExecutionListener extends AbstractTestExecutionListener {
+    private static final Logger LOGGER = LoggerFactory.getLogger(InitSpringProfilesExecutionListener.class);
 
     private static final String SPRING_PROFILES_ACTIVE = "spring.profiles.active";
 

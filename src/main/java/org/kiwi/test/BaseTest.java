@@ -10,12 +10,12 @@ import org.springframework.test.context.support.DirtiesContextTestExecutionListe
 import org.springframework.test.context.web.ServletTestExecutionListener;
 
 /**
- * Created by jack08.liu on 2016/8/11.
+ * Created by jack on 2016/8/11.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:applicationContext-test.xml"}, inheritLocations = true)
 @TestExecutionListeners({ServletTestExecutionListener.class, DependencyInjectionTestExecutionListener.class,
-        DirtiesContextTestExecutionListener.class, InitSpringProfilesExecutionListenr.class})
+        DirtiesContextTestExecutionListener.class, InitSpringProfilesExecutionListener.class})
 @ActiveProfiles(value = "test")
 public abstract class BaseTest {
 
