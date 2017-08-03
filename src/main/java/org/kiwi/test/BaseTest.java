@@ -47,7 +47,7 @@ public abstract class BaseTest {
      * @throws Exception
      */
     @Test
-    protected abstract void onSuccess() throws Exception;
+    public abstract void onSuccess() throws Exception;
 
     /**
      * 业务失败的case
@@ -55,7 +55,7 @@ public abstract class BaseTest {
      * @throws Exception
      */
     @Test
-    protected abstract void onFailure() throws Exception;
+    public abstract void onFailure() throws Exception;
 
     /**
      * 业务超时的case
@@ -63,6 +63,6 @@ public abstract class BaseTest {
      * @throws Exception
      */
     @Test
-    protected abstract void onTimeOut() throws Exception;
+    public abstract void onTimeOut() throws Exception;
 
 }
